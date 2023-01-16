@@ -1,0 +1,199 @@
+body{
+    background-color: #f5f5f5;
+}
+table{
+	text-align: right;
+	position:absolute;
+	margin-left: 50%;
+	margin-top: 0.25%;
+	color: white;
+}
+table, th, td {
+  padding: 5px;
+
+}
+hr{
+	border-top: 3px solid #68BBE3;
+}
+
+p{
+    font-size: 18px;
+}
+
+video{
+	width: 50%;
+	height: 50%;
+}
+
+code{
+	color:#68BBE3;
+	background-color:#ebf8ff;
+}
+
+.button-text{
+	font-size: 20px;
+}
+
+.fa-github{
+	font-size: 25px;
+}
+
+.rotate{
+	transform: rotate(-2deg);
+}
+
+.padded{
+	padding: 100px 15px;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #003060;
+    border: #003060;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	font-size: medium;
+	padding: 5px;
+}
+
+/*Start Bootstrap CSS*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+	background-color: #0E86D4;
+	border-radius: 5px;
+	border-bottom: 5px;
+}
+/*End Bootstrap CSS*/
+
+
+
+.intro-block{
+    padding: 100px 15px 60px;
+    background-color: #055C9D;
+    color: #f5f5f5;
+}
+
+.intro-block h2{
+    font-size: 50px;
+}
+
+
+.ftr{
+    background-color: #003060;
+	padding: 20px 0 40px 0;
+}
+
+.ftr address, .ftr a, .ftr p{
+	color: #fff;
+}
+
+.ftr_space{
+	padding: 0, 10px;
+}
+
+.tpad{
+	padding-top: 20px;
+}
+
+.map{
+	height: 200px;
+	width: 100%;
+}
+
+/*
+.work h1 a{
+	color: #ee4540;
+}
+
+.work h1 a:hover{
+	color: #510a32;
+	text-decoration: none;
+}
+*/
+
+.space{
+    padding: 60px;
+}
+
+
+.carousel-caption h1{
+	color: #003060;
+}
+
+.carousel-inner > .item > img{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	min-width: 100%;
+	height: 70%;
+}
+
+.carousel-innner > .item{
+	height: 500px;
+}
+
+.img-small{
+	width: 200px;
+	height: 150px;
+}
+
+.btn-primary{
+	background-color:#003060;
+	border: #003060;
+}
+
+.btn-primary:hover{
+	background-color: #68BBE3;
+}
+
+
+/*Start Bootstrap CSS*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #510a32;
+    border-color: #510a32;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #2d142c;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+/*End Bootstrap CSS*/
+
+
+.card{
+	width: 400px;
+}
+
+.pagination>li>a:hover{
+	color: #ee4540;
+}
+
+
+
+@media(min-width: 768px){
+	.carousel-inner > .item{
+		height: 700px;
+	}
+}
